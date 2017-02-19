@@ -1,0 +1,42 @@
+.weather-container {
+    text-align: center;
+    
+    i {
+        font-size: 200px;
+        margin: 40px;
+    }
+
+    p {
+        margin: 10px;
+    }
+
+    .temperature-container {
+        font-weight: 100;
+        font-size: 80px;
+
+        .temperature {
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+        .temp-symbol {
+            font-size: 40px;
+            margin-right: 10px;
+        }
+    }
+
+    .location-name {
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+
+    .location-input-container {
+        margin-top: 20px;
+        
+        input {
+            margin-right: 10px;
+        }
+    }
+}
+
+
